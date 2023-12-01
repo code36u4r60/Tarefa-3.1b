@@ -2,13 +2,14 @@
 
 The aim of this work is to develop skills in creating wireframes, mockups and prototypes. To this end, I was asked to add two new views to the Animalec project that comes as an example in the book "Desenvolvimento Web Avançadot"(1) .
 
-(1)DESENVOLVIMENTO AVANÇADO PARA A WEB - DO FRONT-END AO BACK-END _Ricardo Queirós | Filipe Portela_\
-[https://www.fca.pt/pt/catalogo/informatica/tecnologias-programacao-web/desenvolvimento-avancado-para-a-web/](https://www.fca.pt/pt/catalogo/informatica/tecnologias-programacao-web/desenvolvimento-avancado-para-a-web/)\
+(1) - **DESENVOLVIMENTO AVANÇADO PARA A WEB** - DO FRONT-END AO BACK-END\
+ _Ricardo Queirós | Filipe Portela_\
+Link: [https://www.fca.pt/pt/catalogo/informatica/tecnologias-programacao-web/desenvolvimento-avancado-para-a-web/](https://www.fca.pt/pt/catalogo/informatica/tecnologias-programacao-web/desenvolvimento-avancado-para-a-web/)\
 Ref:. Filipe Portela, Ricardo Queirós (2020). Desenvolvimento Avançado para a Web - Do front-end ao back-end. 1ª edição, FCA, ISBN: 978-972-722-915-4.
 
 ## Wireframe and Mockups
 
-The work was divided into several tasks, two of which were the creation of a wireframe and a mockup. The work carried out can be consulted via the pdf's in the Wireframe_Mockups folder or via the links below.
+The work was divided into several tasks, two of which were the creation of a wireframe and a mockup. The work carried out can be consulted via the pdf's in the `Wireframe_Mockups` folder or via the links below.
 
 ### Wireframe
 
