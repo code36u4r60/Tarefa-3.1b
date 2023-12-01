@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>View Experts - Animalec</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="/styles/animalec.css" />
+    <link rel="stylesheet" href="/styles/menu.css" />
+    <link rel="stylesheet" href="/styles/index.css" />
+    <link rel="stylesheet" href="/styles/form.css" />
+  </head>
+
+  <body>
+    <nav>
+      <div class="brand">
+        <img src="../images/logo.png" alt="" srcset="" />
+      </div>
+
+      <div class="links">
+        <a class="link" href="#" disabled>animais</a>
+        <a class="link" href="#" disabled>quizzes</a>
+        <a class="link" href="/pages/experts.html">especialistas</a>
+        <a class="link" href="/pages/sponsors.html">patrocinadores</a>
+        <a class="link" href="#" disabled>contactos</a>
+        <a class="link" href="/">admin</a>
+      </div>
+      <div class="menu btn1" data-menu="1">
+        <div class="icon-left"></div>
+        <div class="icon-right"></div>
+      </div>
+    </nav>
+
+    <main>
+      <header>
+        <h1 class="title">Adicionar Especialistas</h1>
+
+        <div class="divider-custom">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon">
+            <i class="fas fa-star"></i>
+          </div>
+          <div class="divider-custom-line"></div>
+        </div>
+      </header>
+
+      <section class="container">
+        <form>
+          <div class="input-group">
+            <input
+              type="text"
+              id="especialista"
+              name="especialista"
+              placeholder="Nome do Especialista"
+            />
+
+            <input
+              type="text"
+              id="profissao"
+              name="profissao"
+              placeholder="Profissão"
+            />
+
+            <span>
+              <label
+                type="text"
+                for="especialidade"
+                name="especialidade"
+                placeholder="Especialidade"
+              />
+              <select id="especialidade">
+                <option>especialidade_um</option>
+                <option>especialidade_dois</option>
+                <option>especialidade_três</option>
+                <option>especialidade_quatro</option>
+              </select>
+            </span>
+            <textarea
+              id="descricao"
+              name="descricao"
+              placeholder="Descrição"
+              rows="4"
+            ></textarea>
+          </div>
+
+          <div class="button-group">
+            <span></span>
+            <button type="reset" class="btn btn-outline-danger">
+              Cancelar
+            </button>
+            <button type="submit" class="btn btn-outline-success">
+              Adicionar
+            </button>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
+
+<script src="/js/menu.js"></script>

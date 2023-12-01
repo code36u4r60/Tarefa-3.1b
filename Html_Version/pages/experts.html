@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gestão de Experts - Animalec</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="/styles/animalec.css" />
+    <link rel="stylesheet" href="/styles/menu.css" />
+    <link rel="stylesheet" href="/styles/index.css" />
+  </head>
+
+  <body>
+    <nav>
+      <div class="brand">
+        <img src="/images/logo.png" alt="" srcset="" />
+      </div>
+
+      <div class="links">
+        <a class="link" href="#" disabled>animais</a>
+        <a class="link" href="#" disabled>quizzes</a>
+        <a class="link" href="/pages/experts.html">especialistas</a>
+        <a class="link" href="/pages/sponsors.html">patrocinadores</a>
+        <a class="link" href="#" disabled>contactos</a>
+        <a class="link" href="/">admin</a>
+      </div>
+      <div class="menu btn1" data-menu="1">
+        <div class="icon-left"></div>
+        <div class="icon-right"></div>
+      </div>
+    </nav>
+
+    <main>
+      <header>
+        <h1 class="title">Gestão de Especialistas</h1>
+
+        <div class="divider-custom">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon">
+            <i class="fas fa-star"></i>
+          </div>
+          <div class="divider-custom-line"></div>
+        </div>
+      </header>
+
+      <section class="container table-section">
+        <div class="button-add">
+          <a href="/pages/experts-add.html">
+            <button type="button" class="btn btn-outline-success">
+              <span>Adicionar Especialistas</span>
+            </button>
+          </a>
+        </div>
+
+        <div class="table">
+          <div class="table-header">
+            <div class="name">Nome</div>
+          </div>
+
+          <div class="table-body">
+            <div class="item">
+              <div class="name">John Doe</div>
+              <div class="actions">
+                <button type="button" class="btn btn-outline-primary" disabled>
+                  <span>Ver</span>
+                </button>
+                <a href="/pages/experts-edit.html">
+                  <button type="button" class="btn btn-outline-success">
+                    <span>Editar</span>
+                  </button>
+                </a>
+                <button type="button" class="btn btn-outline-danger" disabled>
+                  <span>Remover</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="name">Jane Doe</div>
+              <div class="actions">
+                <button type="button" class="btn btn-outline-primary" disabled>
+                  <span>Ver</span>
+                </button>
+                <a href="/pages/experts-edit.html">
+                  <button type="button" class="btn btn-outline-success">
+                    <span>Editar</span>
+                  </button>
+                </a>
+                <button type="button" class="btn btn-outline-danger" disabled>
+                  <span>Remover</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="name">Baby Doe</div>
+              <div class="actions">
+                <button type="button" class="btn btn-outline-primary" disabled>
+                  <span>Ver</span>
+                </button>
+                <a href="/pages/experts-edit.html">
+                  <button type="button" class="btn btn-outline-success">
+                    <span>Editar</span>
+                  </button>
+                </a>
+                <button type="button" class="btn btn-outline-danger" disabled>
+                  <span>Remover</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="name">Janie Doe</div>
+              <div class="actions">
+                <button type="button" class="btn btn-outline-primary" disabled>
+                  <span>Ver</span>
+                </button>
+                <a href="/pages/experts-edit.html">
+                  <button type="button" class="btn btn-outline-success">
+                    <span>Editar</span>
+                  </button>
+                </a>
+                <button type="button" class="btn btn-outline-danger" disabled>
+                  <span>Remover</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="name">Johnny Doe</div>
+              <div class="actions">
+                <button type="button" class="btn btn-outline-primary" disabled>
+                  <span>Ver</span>
+                </button>
+                <a href="/pages/experts-edit.html">
+                  <button type="button" class="btn btn-outline-success">
+                    <span>Editar</span>
+                  </button>
+                </a>
+                <button type="button" class="btn btn-outline-danger" disabled>
+                  <span>Remover</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
+
+<script src="/js/menu.js"></script>
